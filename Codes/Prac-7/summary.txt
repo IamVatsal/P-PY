@@ -1,0 +1,6 @@
+Event Summary Report
+--------------------
+INFO: 8
+WARNING: 3
+ERROR: 5
+TOTAL EVENTS: 16

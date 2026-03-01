@@ -1,0 +1,3 @@
+Total number of sentences: 36
+Average words per sentence: 9.63888888888889
+Words longer than 10 characters: ['Consistency', 'consistently', 'circumstances', 'consistency', 'predictable', 'consistently', 'improvements', 'significant', 'Consistency', 'disciplined', 'consistency', 'consistency', 'unproductive', 'intentional', 'distractions', 'entertainment', 'notifications', 'consistency', 'necessarily', 'consistency', 'extraordinary', 'inspiration']
