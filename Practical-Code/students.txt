@@ -1,0 +1,6 @@
+RollNo,Name,Age,Department,Marks
+101,Vatsal,20,Computer,88
+102,Rahul,21,Mechanical,75
+103,Anjali,19,Electrical,91
+104,Meera,20,Civil,84
+105,Honey,22,IT,79

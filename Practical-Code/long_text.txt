@@ -1,0 +1,10 @@
+Line 1: Introduction to Python
+Line 2: Variables and Data Types
+Line 3: Conditional Statements
+Line 4: Loops in Python
+Line 5: Functions
+Line 6: File Handling
+Line 7: Exception Handling
+Line 8: OOP Concepts
+Line 9: Modules and Packages
+Line 10: Advanced Topics
