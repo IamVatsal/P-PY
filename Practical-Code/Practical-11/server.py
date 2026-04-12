@@ -1,9 +1,10 @@
 import socket
 import time
 
+hostname = input("Enter the hostname or IP address of the server: ")
+port = int(input("Enter the port number to connect to: "))
+
 ss = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-hostname = socket.gethostname()
-port = 1235
 ss.bind((hostname, port))
 ss.listen()
 cs, addr = ss.accept()

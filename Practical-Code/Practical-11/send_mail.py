@@ -3,8 +3,8 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from email.mime.application import MIMEApplication
 
-sender = '24012011142@gun.ac.com'
-receiver = 'vatsalpatel0609@gmail.com'
+sender = 'vatsalpatel0609@gmail.com'
+receiver = '24012011142@gnu.ac.in'
 
 msg = MIMEMultipart()
 msg['From'] = sender
@@ -23,7 +23,7 @@ msg.attach(attachment)
 smtpob = smtplib.SMTP('smtp.gmail.com', 587)
 smtpob.starttls()
 # Use your 16-character App Password here
-smtpob.login(sender, "your_16_character_password") 
+smtpob.login(sender, "Your_App_Password") 
 
 smtpob.sendmail(sender, receiver, msg.as_string())
 smtpob.quit()

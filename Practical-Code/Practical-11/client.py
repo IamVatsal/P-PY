@@ -1,10 +1,11 @@
 import socket
 import time
 
+hostname = input("Enter the hostname or IP address of the server: ")
+port = int(input("Enter the port number to connect to: "))
+
 cs = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-hostname = socket.gethostname()
 ip = socket.gethostbyname(hostname)
-port = 1235
 cs.connect((ip, port))
 
 print("Connection from: " + ip)
